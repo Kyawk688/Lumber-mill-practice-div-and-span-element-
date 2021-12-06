@@ -1,0 +1,89 @@
+
+body{
+    background-image: url(img/bg.jpg);
+}
+h1, h3, h4{
+  color: orange;
+}
+p{
+    color: white;
+}
+.heading{
+    margin: auto;
+    width: 840px;
+}
+.whole-container{
+
+    width:900px;
+    min-height: 900px;
+    background-color: rgba(0,0,0,0.6);
+    margin: auto;
+    
+}
+.left-border{
+    border-left: 2px rgba(255, 255, 255,0.8) dotted;
+}
+.left-top{ float: left;
+    width: 70%;
+    min-height:500px; 
+    text-align: center;
+    padding: 20px 0px;
+}
+.left-top > img{
+    width: 560px;
+    height:320px;
+    margin: auto;
+    display: block;
+  
+}
+.left-bottom{ float: left;
+    width: 70%;
+    min-height: 200px;
+}
+.left-bottom-low{
+    margin-left: 5px;
+    width: 29%; 
+    min-height: 200px;
+    float: left;
+    padding: 0px 10px;
+}
+.left-bottom-low > img{
+    width: 90%;
+}
+.left-bottom-low > a{
+    text-decoration: none;
+    background: linear-gradient(180deg, darkorange, rgb(148, 98, 5));
+    border-radius: 10px;
+    padding: 5px 10px;
+    
+}
+.right{
+        float: right;
+        width: 29%;
+        height: auto;
+        
+        margin-top: -860px; 
+        padding-left: 10px;
+
+}
+input[type=text], textarea {
+    background-color: rgba(18, 19, 19); 
+    border:1px rgba(18, 19, 19) solid;
+    border-radius: 5px;
+    padding: 5px;
+}
+label{
+    color: white;
+    display: inline-block;
+    margin-top: 10px;
+}
+input[type=submit]{
+    font-family: Times New Roman;
+    font-size: 16px;
+    display: inline-block;
+    margin-top: 10px;
+    background: linear-gradient(180deg, darkorange, rgb(148, 98, 5));
+    border: 1px orange;
+    border-radius: 10px;
+    padding:7px 15px;
+}
